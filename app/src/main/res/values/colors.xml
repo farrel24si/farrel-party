@@ -2,4 +2,13 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="text_primary">#1E232C</color>
+    <color name="text_secondary">#8391A1</color>
+    <color name="bg_card_menu">#D9D9D9</color>
+    <color name="bg_dark">#212121</color>
+    <color name="danger_red">#D32F2F</color>
+    <color name="accent_tosca">#00BFA5</color>
+    <color name="bg_placeholder">#E8ECF4</color>
+    <color name="purple_500">#FF6200EE</color>
 </resources>

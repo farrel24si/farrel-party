@@ -1,4 +1,4 @@
-package com.example.farrel_party.Pertemuan3
+package com.example.farrel_party.Home.Pertemuan3
 
 import android.content.Intent
 import android.os.Bundle
