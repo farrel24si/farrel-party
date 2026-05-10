@@ -14,6 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Farrelparty">
         <activity
+            android:name=".Home.pertemuan_9.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Home.pertemuan_9.NinthActivity"
+            android:exported="false" />
+        <activity
             android:name=".BaseActivity"
             android:exported="false" />
         <activity
@@ -38,7 +44,7 @@
             android:name=".Home.Pertemuan4.DashboardActivity"
             android:exported="false" />
         <activity
-            android:name=".Home.MainActivity"
+            android:name=".Home.BangunRuangActivity"
             android:exported="false" />
         <activity
             android:name=".Home.Pertemuan3.LoginActivity"
