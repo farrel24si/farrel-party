@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center"
+    android:background="#EEF2FF">
+
+    <FrameLayout
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/bg_icon_circle_blue_lg">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:src="@android:drawable/ic_dialog_email"
+            app:tint="#1565C0" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daftar via Gmail"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.01"
+        android:textColor="#0D1B5E"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukkan alamat email Gmail kamu untuk melanjutkan proses registrasi."
+        android:textAlignment="center"
+        android:lineSpacingMultiplier="1.4"
+        android:textSize="14sp"
+        android:textColor="#6B7CB8"
+        android:layout_marginBottom="36dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email @gmail.com"
+        android:layout_marginBottom="20dp"
+        app:boxCornerRadiusTopStart="14dp"
+        app:boxCornerRadiusTopEnd="14dp"
+        app:boxCornerRadiusBottomStart="14dp"
+        app:boxCornerRadiusBottomEnd="14dp"
+        app:boxBackgroundColor="@android:color/white"
+        app:boxStrokeColor="#1565C0"
+        app:boxStrokeWidth="1.5dp"
+        app:hintTextColor="#1565C0">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etEmailGmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp"
+            android:textColor="#0D1B5E"
+            android:textSize="15sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLanjutRegistrasi"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Lanjut Registrasi"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.05"
+        app:cornerRadius="14dp"
+        app:backgroundTint="#1565C0"
+        app:elevation="4dp" />
+
+</LinearLayout>
