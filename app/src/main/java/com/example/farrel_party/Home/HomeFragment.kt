@@ -13,6 +13,7 @@ import androidx.fragment.app.Fragment
 
 // --- DAFTAR IMPORT ACTIVITY ---
 import com.example.farrel_party.AuthActivity
+import com.example.farrel_party.Home.pertemuan_10.TenthActivity
 import com.example.farrel_party.SixthActivity
 import com.example.farrel_party.WebViewActivity
 import com.example.farrel_party.Home.pertemuan_9.NinthActivity
@@ -96,6 +97,13 @@ class HomeFragment : Fragment() {
                 dialog.dismiss()
             }
             builder.show()
+        }
+
+        // Tombol Pertemuan 10
+        binding.cvMenuP10.setOnClickListener {
+            // Pastikan kamu sudah import kelas TenthActivity-nya ya!
+            val intent = Intent(requireContext(), TenthActivity::class.java)
+            startActivity(intent)
         }
 
         // 7. BANNER BAWAH: Buka WebView FDPR

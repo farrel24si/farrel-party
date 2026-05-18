@@ -48,4 +48,9 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation("androidx.gridlayout:gridlayout:1.0.0")
+    // RecyclerView
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
+
+    // Glide (Untuk load gambar dari URL)
+    implementation("com.github.bumptech.glide:glide:4.16.0")
 }
